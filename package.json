@@ -4,7 +4,7 @@
   "description": "Fixed import react-virtualized unused code error",
   "scripts": {
     "dev": "tsc --watch",
-    "build": "tsc --module ESNEXT"
+    "build": "tsc --module ESNEXT --outDir dist/es"
   },
   "main": "./dist/index.js",
   "files": [
